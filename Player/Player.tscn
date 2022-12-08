@@ -1,0 +1,53 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Assets/animated-characters-2/Skins/criminalMaleA.png" type="Texture" id=1]
+
+[sub_resource type="CapsuleShape" id=1]
+
+[sub_resource type="CapsuleMesh" id=2]
+
+[sub_resource type="SpatialMaterial" id=3]
+albedo_texture = ExtResource( 1 )
+
+[sub_resource type="Animation" id=4]
+resource_name = "Idle"
+
+[sub_resource type="AnimationNodeAnimation" id=5]
+animation = "Idle"
+
+[sub_resource type="AnimationNodeBlend2" id=6]
+
+[sub_resource type="AnimationNodeAnimation" id=7]
+
+[sub_resource type="AnimationNodeBlendTree" id=8]
+graph_offset = Vector2( -297.514, 16.4023 )
+nodes/Idle/node = SubResource( 5 )
+nodes/Idle/position = Vector2( -40, 100 )
+nodes/IdleRun/node = SubResource( 6 )
+nodes/IdleRun/position = Vector2( 240, 60 )
+nodes/Run/node = SubResource( 7 )
+nodes/Run/position = Vector2( -40, 260 )
+nodes/output/position = Vector2( 540, 140 )
+
+[node name="Spatial" type="KinematicBody"]
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, -4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 0, 1, 1.91069e-15, 0, 0.335501, 0 )
+shape = SubResource( 1 )
+
+[node name="Root" type="Spatial" parent="."]
+
+[node name="Skeleton" type="Skeleton" parent="Root"]
+
+[node name="MeshInstance" type="MeshInstance" parent="Root/Skeleton"]
+transform = Transform( 1, 0, -4.37114e-08, 4.36789e-08, -0.0385622, 0.999256, -1.68561e-09, -0.999256, -0.0385622, 0, 0.314316, 0 )
+mesh = SubResource( 2 )
+material/0 = SubResource( 3 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/Idle = SubResource( 4 )
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource( 8 )
+anim_player = NodePath("../AnimationPlayer")
+parameters/IdleRun/blend_amount = 0

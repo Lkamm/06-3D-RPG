@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/animated-characters-2/Animations/idle.fbx" type="PackedScene" id=1]
+
+[node name="idle" instance=ExtResource( 1 )]
