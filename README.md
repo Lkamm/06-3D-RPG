@@ -1,2 +1,5 @@
-# 06-3D-RPG
-A 3D RPG game made in Godot.
+# Godot-3D-Template
+
+Godot Template for 3D Games
+
+Includes Keyboard mappings and Global.gd
