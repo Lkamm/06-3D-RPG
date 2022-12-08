@@ -1,0 +1,11 @@
+Model Information:
+* title:	Eaten Piece Of Bread
+* source:	https://sketchfab.com/3d-models/eaten-piece-of-bread-a565acd43e06410bb43d2132b402b409
+* author:	GetDeadEntertainment (https://sketchfab.com/GetDeadEntertainment)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Eaten Piece Of Bread" (https://sketchfab.com/3d-models/eaten-piece-of-bread-a565acd43e06410bb43d2132b402b409) by GetDeadEntertainment (https://sketchfab.com/GetDeadEntertainment) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

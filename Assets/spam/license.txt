@@ -1,0 +1,11 @@
+Model Information:
+* title:	Spam
+* source:	https://sketchfab.com/3d-models/spam-df9538b5a8aa483a95a33878fb963bf1
+* author:	clon6767 (https://sketchfab.com/clon6767)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Spam" (https://sketchfab.com/3d-models/spam-df9538b5a8aa483a95a33878fb963bf1) by clon6767 (https://sketchfab.com/clon6767) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

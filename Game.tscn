@@ -1,4 +1,6 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
 
 [sub_resource type="CubeMesh" id=1]
 size = Vector3( 100, 0.5, 100 )
@@ -15,3 +17,12 @@ mesh = SubResource( 1 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Ground"]
 shape = SubResource( 2 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.309557, 0 )
+
+[node name="Pivot" type="Position3D" parent="Player"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.914705, -1.89258 )
+
+[node name="Camera" type="Camera" parent="Player/Pivot"]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.87239, 3.28589, -2.52105 )

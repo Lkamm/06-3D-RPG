@@ -1,7 +1,8 @@
-[gd_scene load_steps=25 format=2]
+[gd_scene load_steps=26 format=2]
 
-[ext_resource path="res://Assets/skin.material" type="Material" id=1]
-[ext_resource path="res://Assets/skaterFemaleA.png" type="Texture" id=2]
+[ext_resource path="res://Assets/animated-characters-2/Skins/criminalMaleA.png" type="Texture" id=1]
+[ext_resource path="res://Assets/kenney_blasterkit (1)/Models/DAE format/blasterH.dae" type="PackedScene" id=2]
+[ext_resource path="res://Player/Player.gd" type="Script" id=3]
 
 [sub_resource type="CapsuleShape" id=1]
 radius = 0.5
@@ -15,7 +16,6 @@ surfaces/0 = {
 "blend_shape_data": [  ],
 "format": 97759,
 "index_count": 4812,
-"material": ExtResource( 1 ),
 "primitive": 4,
 "skeleton_aabb": [ AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( -0.356604, 1.14976, -0.20662, 0.713691, 0.477994, 0.516271 ), AABB( -0.331757, 1.57958, -0.181353, 0.663996, 0.422043, 0.485567 ), AABB( -0.319425, 1.96773, -0.206229, 0.639331, 0.589907, 0.485022 ), AABB( -0.347832, 1.96773, -0.206229, 0.696147, 0.589907, 0.485022 ), AABB( -0.139826, 2.51119, -0.16121, 0.280134, 0.15126, 0.318875 ), AABB( -0.43883, 2.60887, -0.533908, 0.878142, 1.1565, 1.04814 ), AABB( 0.0475161, 1.96902, -0.194066, 0.300798, 0.585486, 0.440668 ), AABB( 0.303438, 2.18642, -0.139517, 0.536078, 0.301719, 0.297648 ), AABB( 0.812029, 2.17291, -0.0925794, 0.517761, 0.250603, 0.227141 ), AABB( 1.12234, 2.17663, -0.0968089, 0.27997, 0.215116, 0.259289 ), AABB( 1.34043, 2.18491, -0.0968089, 0.245211, 0.145473, 0.270174 ), AABB( 1.54201, 2.14661, -0.0872014, 0.185809, 0.153799, 0.250943 ), AABB( 1.54201, 2.11944, -0.0872014, 0.267521, 0.180972, 0.250943 ), AABB( 1.34043, 2.19683, 0.146511, 0.215351, 0.0775096, 0.0779881 ), AABB( 1.37115, 2.16305, 0.200467, 0.178767, 0.0897534, 0.141051 ), AABB( -0.347832, 1.96902, -0.194066, 0.300798, 0.585486, 0.440668 ), AABB( -0.839034, 2.18642, -0.139517, 0.536078, 0.301719, 0.297648 ), AABB( -1.32931, 2.17291, -0.0925794, 0.517761, 0.250603, 0.227141 ), AABB( -1.40183, 2.17663, -0.0968089, 0.27997, 0.215116, 0.259289 ), AABB( -1.58515, 2.18491, -0.0968089, 0.245211, 0.145473, 0.270174 ), AABB( -1.72734, 2.14661, -0.0872014, 0.185809, 0.153799, 0.250943 ), AABB( -1.80905, 2.11944, -0.0872014, 0.267521, 0.180972, 0.250943 ), AABB( -1.5553, 2.19683, 0.146511, 0.215351, 0.0775096, 0.0779881 ), AABB( -1.54943, 2.16305, 0.200467, 0.178767, 0.0897534, 0.141051 ), AABB( -0.0589697, 0.700093, -0.219173, 0.481, 0.892282, 0.500816 ), AABB( 0.104198, 0.258298, -0.253954, 0.317832, 0.584203, 0.364258 ), AABB( 0.195167, 0.000684114, -0.261129, 0.304787, 0.26232, 0.370821 ), AABB( 0.221892, 0.000684114, 0.061319, 0.282504, 0.192591, 0.230241 ), AABB( -0.421548, 0.700093, -0.219173, 0.481, 0.892272, 0.500816 ), AABB( -0.421548, 0.258298, -0.253954, 0.317832, 0.584203, 0.364258 ), AABB( -0.499471, 0.000684114, -0.261129, 0.304787, 0.26232, 0.370821 ), AABB( -0.503913, 0.000684114, 0.061319, 0.282504, 0.192591, 0.230241 ) ],
 "vertex_count": 1029
@@ -160,7 +160,7 @@ bind/44/bone = -1
 bind/44/pose = Transform( -0.992803, 0.00958511, -0.119373, -0.119664, -0.039574, 0.992026, 0.00478277, 0.999171, 0.0404359, -0.340618, -0.128335, -0.0149813 )
 
 [sub_resource type="SpatialMaterial" id=4]
-albedo_texture = ExtResource( 2 )
+albedo_texture = ExtResource( 1 )
 
 [sub_resource type="Animation" id=5]
 length = 1.25
@@ -4637,7 +4637,7 @@ animation = "Idle"
 animation = "Run"
 
 [sub_resource type="AnimationNodeBlendTree" id=22]
-graph_offset = Vector2( -151.35, 65.4075 )
+graph_offset = Vector2( -366.35, -12.5925 )
 nodes/Idle/node = SubResource( 19 )
 nodes/Idle/position = Vector2( 130, 70 )
 nodes/Idle_Run/node = SubResource( 20 )
@@ -4648,12 +4648,14 @@ nodes/output/position = Vector2( 760, 150 )
 node_connections = [ "output", 0, "Idle_Run", "Idle_Run", 0, "Idle", "Idle_Run", 1, "Run" ]
 
 [node name="Player" type="KinematicBody"]
+script = ExtResource( 3 )
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
 transform = Transform( 1, 0, 0, 0, -1.62921e-07, -1, 0, 1, -1.62921e-07, 0, 1.92101, 0.21824 )
 shape = SubResource( 1 )
 
 [node name="Root" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0687871, 0 )
 
 [node name="Skeleton" type="Skeleton" parent="Root"]
 bones/0/name = "left_foot_ctrl"
@@ -4886,6 +4888,13 @@ bones/44/bound_children = [  ]
 mesh = SubResource( 2 )
 skin = SubResource( 3 )
 material/0 = SubResource( 4 )
+
+[node name="BoneAttachment" type="BoneAttachment" parent="Root/Skeleton"]
+transform = Transform( -0.807344, 0.134665, 0.574518, 0.44237, -0.506229, 0.740301, 0.390527, 0.851818, 0.349129, -0.6627, 1.33885, 0.216206 )
+bone_name = "right_hand_thumb_1"
+
+[node name="blasterH" parent="Root/Skeleton/BoneAttachment" instance=ExtResource( 2 )]
+transform = Transform( 0.947895, -0.0237541, 0.317697, 0.0690425, 0.988835, -0.132059, -0.311014, 0.147112, 0.938951, -0.0935065, 0.153016, -0.221542 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/Attack = SubResource( 5 )
