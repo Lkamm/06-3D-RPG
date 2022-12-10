@@ -1,0 +1,461 @@
+[gd_scene load_steps=90 format=2]
+
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Water_Flat.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Shared_Terrain_Dirt_Gathered_Corner.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Docks_Corner_Supports.obj" type="ArrayMesh" id=3]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Shared_Prop_Boulder_2.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Coconut_1.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Outer_1x1_Top.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Cliff_Terrain_Entrance_Round_Base.obj" type="ArrayMesh" id=7]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Hill_Gentle_Base.obj" type="ArrayMesh" id=8]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Minecart_1.obj" type="ArrayMesh" id=9]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Docks_Corner.obj" type="ArrayMesh" id=10]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Treasure_Chest.obj" type="ArrayMesh" id=11]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Shell_1.obj" type="ArrayMesh" id=12]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Hanging_Lamp_1.obj" type="ArrayMesh" id=13]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Cliff_Terrain_Entrance_Round_Top.obj" type="ArrayMesh" id=14]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Path_Steps_Center_Top.obj" type="ArrayMesh" id=15]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Hill_Sharp_Base.obj" type="ArrayMesh" id=16]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Inner_3x3_Mid.obj" type="ArrayMesh" id=17]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Side_Shift_Gentle.obj" type="ArrayMesh" id=18]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Shell_2.obj" type="ArrayMesh" id=19]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Side_Sharp.obj" type="ArrayMesh" id=20]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Transition_Gentle_Sharp_Flush_Base.obj" type="ArrayMesh" id=21]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Side_Overlap_Side.obj" type="ArrayMesh" id=22]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Docks_Steps.obj" type="ArrayMesh" id=23]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Transition_Gentle_Sharp_Flush_Base.obj" type="ArrayMesh" id=24]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Floor.obj" type="ArrayMesh" id=25]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Pick_Large.obj" type="ArrayMesh" id=26]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Outer_1x1_Base.obj" type="ArrayMesh" id=27]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Side_Gentle.obj" type="ArrayMesh" id=28]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Floor_Raised.obj" type="ArrayMesh" id=29]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Hill_Base_Top_Joined_Sharp.obj" type="ArrayMesh" id=30]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Inner_3x3_Mid.obj" type="ArrayMesh" id=31]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Corner_Inner_2x2.obj" type="ArrayMesh" id=32]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Railway_Straight_3.obj" type="ArrayMesh" id=33]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Shared_Terrain_Dirt_Gathered_Straight.obj" type="ArrayMesh" id=34]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Docks_Straight.obj" type="ArrayMesh" id=35]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Flat_Round_Outer.obj" type="ArrayMesh" id=36]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Cliff_Terrain_Entrance_Flat_Base.obj" type="ArrayMesh" id=37]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Side_Incline_Base.obj" type="ArrayMesh" id=38]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Inner_3x3_Base.obj" type="ArrayMesh" id=39]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Outer_1x1_Top.obj" type="ArrayMesh" id=40]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Ceiling_Boards_2.obj" type="ArrayMesh" id=41]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Side_Sharp.obj" type="ArrayMesh" id=42]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Flat_Round_Inner.obj" type="ArrayMesh" id=43]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Docks_Straight_Supports.obj" type="ArrayMesh" id=44]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Hill_Base_Top_Joined_Gentle.obj" type="ArrayMesh" id=45]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Outer_2x2_Top.obj" type="ArrayMesh" id=46]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Stalagmite_Tiny.obj" type="ArrayMesh" id=47]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Inner_1x1_Base.obj" type="ArrayMesh" id=48]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Railway_Straight_4.obj" type="ArrayMesh" id=49]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Prop_Rock_2.obj" type="ArrayMesh" id=50]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Stalagmite_Connected_Top.obj" type="ArrayMesh" id=51]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Inner_3x3_Top.obj" type="ArrayMesh" id=52]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Outer_3x3_Top.obj" type="ArrayMesh" id=53]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Tree_Cedar_2.obj" type="ArrayMesh" id=54]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Side_Base.obj" type="ArrayMesh" id=55]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Flower_Rose.obj" type="ArrayMesh" id=56]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Flower_Tulip.obj" type="ArrayMesh" id=57]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Flower_Lily_Pink.obj" type="ArrayMesh" id=58]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Hill_Gentle_Plain_Center.obj" type="ArrayMesh" id=59]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Post_4.obj" type="ArrayMesh" id=60]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_3x3_Base.obj" type="ArrayMesh" id=61]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_1x1_Mid.obj" type="ArrayMesh" id=62]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Mountain_2.obj" type="ArrayMesh" id=63]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Shared_Prop_Boulder_3.obj" type="ArrayMesh" id=64]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Mountain_3.obj" type="ArrayMesh" id=65]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bush_2.obj" type="ArrayMesh" id=66]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bush_1.obj" type="ArrayMesh" id=67]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Hollow_Trunk.obj" type="ArrayMesh" id=68]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Post_3.obj" type="ArrayMesh" id=69]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_3.obj" type="ArrayMesh" id=70]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_2x2_Top.obj" type="ArrayMesh" id=71]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Cattail_2.obj" type="ArrayMesh" id=72]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Mushroom_2.obj" type="ArrayMesh" id=73]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bridge_Log_Middle.obj" type="ArrayMesh" id=74]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Hill_Gentle_Plain_Side.obj" type="ArrayMesh" id=75]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Flower_Sunflower.obj" type="ArrayMesh" id=76]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_2x2_Mid.obj" type="ArrayMesh" id=77]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bridge_Log_Middle_Edge.obj" type="ArrayMesh" id=78]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Camp_Sitting_Log.obj" type="ArrayMesh" id=79]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Camp_Wood_Pile.obj" type="ArrayMesh" id=80]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Cattail_1.obj" type="ArrayMesh" id=81]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_3x3_Mid.obj" type="ArrayMesh" id=82]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Mushroom_1.obj" type="ArrayMesh" id=83]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Tree_Oak_1.obj" type="ArrayMesh" id=84]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Esse_2x3.obj" type="ArrayMesh" id=85]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Tree_Oak_2.obj" type="ArrayMesh" id=86]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bridge_Log_End_Edge.obj" type="ArrayMesh" id=87]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_1.obj" type="ArrayMesh" id=88]
+[ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Mountain_1.obj" type="ArrayMesh" id=89]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Beach_Prop_Coconut_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -42.0758, -13.6202, -15.4597 )
+mesh = ExtResource( 5 )
+
+[node name="Beach_Prop_Docks_Corner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -41.0409, -22.0599, -6.90662 )
+mesh = ExtResource( 10 )
+
+[node name="Beach_Prop_Docks_Corner_Supports" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38.1327, -25.5164, -9.65048 )
+mesh = ExtResource( 3 )
+
+[node name="Beach_Prop_Docks_Steps" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.7135, -29.5659, -16.7553 )
+mesh = ExtResource( 23 )
+
+[node name="Beach_Prop_Docks_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.5172, -31.891, -21.7614 )
+mesh = ExtResource( 35 )
+
+[node name="Beach_Prop_Docks_Straight_Supports" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -18.8818, -33.0139, -26.1919 )
+mesh = ExtResource( 44 )
+
+[node name="Beach_Prop_Shell_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -33.3133, -32.5592, -6.22565 )
+mesh = ExtResource( 12 )
+
+[node name="Beach_Prop_Shell_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39.966, -24.9868, -3.36211 )
+mesh = ExtResource( 19 )
+
+[node name="Beach_Prop_Treasure_Chest" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36.6471, -28.246, -7.91742 )
+mesh = ExtResource( 11 )
+
+[node name="Beach_Terrain_Sand_Floor_Raised" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -40.105, -25.5322, 2.5625 )
+mesh = ExtResource( 29 )
+
+[node name="Beach_Terrain_Sand_Floor" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -41.2961, -23.592, 1.64757 )
+mesh = ExtResource( 25 )
+
+[node name="Beach_Terrain_Sand_Side_Sharp" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.6344, -28.7988, -0.182369 )
+mesh = ExtResource( 20 )
+
+[node name="Beach_Terrain_Sand_Floor_Raised2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -40.43, -24.9471, 5.26722 )
+mesh = ExtResource( 29 )
+
+[node name="Beach_Terrain_Sand_Transition_Gentle_Sharp_Flush_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38.7279, -26.7717, -3.54377 )
+mesh = ExtResource( 24 )
+
+[node name="Cave_Cliff_Terrain_Entrance_Round_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.8285, -27.1478, -6.61701 )
+mesh = ExtResource( 14 )
+
+[node name="Cave_Cliff_Terrain_Entrance_Flat_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -40.5984, -24.2797, -2.01682 )
+mesh = ExtResource( 37 )
+
+[node name="Beach_Terrain_Sand_Transition_Gentle_Sharp_Flush_Base2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -33.2862, -32.8518, -5.18041 )
+mesh = ExtResource( 24 )
+
+[node name="Cave_Cliff_Terrain_Entrance_Round_Top2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.8626, -34.2245, -14.8303 )
+mesh = ExtResource( 14 )
+
+[node name="Cave_Cliff_Terrain_Entrance_Round_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.1148, -35.5565, -16.3505 )
+mesh = ExtResource( 7 )
+
+[node name="Cave_Prop_Hanging_Lamp_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.8403, -31.25, -19.9037 )
+mesh = ExtResource( 13 )
+
+[node name="Cave_Prop_Minecart_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.3041, -33.1548, -14.5183 )
+mesh = ExtResource( 9 )
+
+[node name="Cave_Prop_Pick_Large" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.6472, -32.2503, -23.205 )
+mesh = ExtResource( 26 )
+
+[node name="Cave_Prop_Railway_Straight_3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36.4955, -28.532, -7.6533 )
+mesh = ExtResource( 33 )
+
+[node name="Cave_Prop_Railway_Straight_4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -40.5012, -24.8646, 1.28986 )
+mesh = ExtResource( 49 )
+
+[node name="Cave_Prop_Stalagmite_Tiny" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -40.5685, -24.5834, -0.456123 )
+mesh = ExtResource( 47 )
+
+[node name="Cave_Prop_Stalagmite_Connected_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39.2351, -26.4928, -1.22691 )
+mesh = ExtResource( 51 )
+
+[node name="Cave_Prop_Support_Ceiling_Boards_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.9827, -28.3986, 0.330273 )
+mesh = ExtResource( 41 )
+
+[node name="Cave_Terrain_Corner_Outer_1x1_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38.5754, -27.7125, 1.93312 )
+mesh = ExtResource( 6 )
+
+[node name="Cave_Terrain_Corner_Outer_1x1_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -35.1957, -31.8457, 3.12444 )
+mesh = ExtResource( 27 )
+
+[node name="Cave_Terrain_Corner_Inner_3x3_Mid" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38.6856, -27.3812, -0.376796 )
+mesh = ExtResource( 17 )
+
+[node name="Cave_Terrain_Corner_Inner_3x3_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.0995, -29.2264, -2.01569 )
+mesh = ExtResource( 39 )
+
+[node name="Cave_Terrain_Flat_Round_Inner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36.8715, -29.0637, -4.24802 )
+mesh = ExtResource( 43 )
+
+[node name="Cave_Terrain_Flat_Round_Outer" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.3031, -32.6265, -11.7052 )
+mesh = ExtResource( 36 )
+
+[node name="Cave_Terrain_Hill_Corner_Inner_2x2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.7609, -34.6587, -12.2602 )
+mesh = ExtResource( 32 )
+
+[node name="Cave_Terrain_Hill_Side_Gentle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.1983, -29.05, -2.32772 )
+mesh = ExtResource( 28 )
+
+[node name="Cave_Terrain_Hill_Side_Overlap_Side" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.9444, -36.7395, -12.4869 )
+mesh = ExtResource( 22 )
+
+[node name="Cave_Terrain_Hill_Side_Sharp" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -26.9945, -33.2524, -14.6946 )
+mesh = ExtResource( 42 )
+
+[node name="Cave_Terrain_Hill_Side_Shift_Gentle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.5781, -31.3988, -21.7823 )
+mesh = ExtResource( 18 )
+
+[node name="Cave_Terrain_Hill_Transition_Gentle_Sharp_Flush_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.8848, -31.9421, -7.58091 )
+mesh = ExtResource( 21 )
+
+[node name="Cave_Terrain_Side_Incline_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -32.173, -32.8886, -3.05298 )
+mesh = ExtResource( 38 )
+
+[node name="Cliff_Prop_Rock_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38.1865, -26.0776, -2.05247 )
+mesh = ExtResource( 50 )
+
+[node name="Cliff_Terrain_Corner_Inner_1x1_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39.7871, -23.3176, -3.39751 )
+mesh = ExtResource( 48 )
+
+[node name="Cliff_Terrain_Corner_Inner_3x3_Mid" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39.0577, -25.2018, 0.0485125 )
+mesh = ExtResource( 31 )
+
+[node name="Cliff_Terrain_Corner_Outer_1x1_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38.2297, -26.4341, 0.332645 )
+mesh = ExtResource( 40 )
+
+[node name="Cliff_Terrain_Corner_Inner_3x3_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38.6864, -25.9876, 2.347 )
+mesh = ExtResource( 52 )
+
+[node name="Cliff_Terrain_Corner_Outer_2x2_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38.5971, -25.6292, -1.38495 )
+mesh = ExtResource( 46 )
+
+[node name="Cliff_Terrain_Corner_Outer_3x3_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -34.5048, -30.1308, -4.44089 )
+mesh = ExtResource( 53 )
+
+[node name="Cliff_Terrain_Hill_Base_Top_Joined_Gentle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -30.6613, -30.57, -13.5193 )
+mesh = ExtResource( 45 )
+
+[node name="Cliff_Terrain_Hill_Base_Top_Joined_Sharp" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -35.1627, -30.1896, -0.476987 )
+mesh = ExtResource( 30 )
+
+[node name="Cliff_Terrain_Hill_Gentle_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.7865, -33.2451, -3.12554 )
+mesh = ExtResource( 8 )
+
+[node name="Cliff_Terrain_Hill_Sharp_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.5657, -27.5669, 3.1102 )
+mesh = ExtResource( 16 )
+
+[node name="Cliff_Terrain_Path_Steps_Center_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36.7454, -28.6169, 5.37385 )
+mesh = ExtResource( 15 )
+
+[node name="Cliff_Terrain_Side_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.2088, -37.7364, -16.0655 )
+mesh = ExtResource( 55 )
+
+[node name="Escarpment_Terrain_Corner_Inner_2x2_Mid" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24.2869, -33.2523, -18.3462 )
+mesh = ExtResource( 77 )
+
+[node name="Escarpment_Terrain_Corner_Inner_1x1_Mid" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -33.1806, -29.6397, -10.0265 )
+mesh = ExtResource( 62 )
+
+[node name="Escarpment_Terrain_Corner_Inner_3x3_Base" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -26.1116, -31.9091, -18.2176 )
+mesh = ExtResource( 61 )
+
+[node name="Escarpment_Terrain_Corner_Outer_2x2_Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -34.0961, -31.0451, -2.42005 )
+mesh = ExtResource( 71 )
+
+[node name="Escarpment_Terrain_Corner_Outer_3x3_Mid" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.2867, -36.1665, -6.85156 )
+mesh = ExtResource( 82 )
+
+[node name="Hilly_Prop_Bridge_Log_Middle_Edge" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.7753, -27.195, 6.78027 )
+mesh = ExtResource( 78 )
+
+[node name="Hilly_Prop_Bridge_Log_Middle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39.7269, -24.4574, 5.67565 )
+mesh = ExtResource( 74 )
+
+[node name="Hilly_Prop_Bridge_Log_End_Edge" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -40.9022, -22.5821, 3.95662 )
+mesh = ExtResource( 87 )
+
+[node name="Hilly_Prop_Bush_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.7798, -27.1814, 6.86483 )
+mesh = ExtResource( 67 )
+
+[node name="Hilly_Prop_Bush_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.3966, -27.7942, 5.10653 )
+mesh = ExtResource( 66 )
+
+[node name="Hilly_Prop_Camp_Sitting_Log" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.2099, -28.0081, 5.79338 )
+mesh = ExtResource( 79 )
+
+[node name="Hilly_Prop_Camp_Wood_Pile" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -33.834, -31.2078, -3.00148 )
+mesh = ExtResource( 80 )
+
+[node name="Hilly_Prop_Cattail_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -20.0115, -35.8897, -18.6297 )
+mesh = ExtResource( 81 )
+
+[node name="Hilly_Prop_Cattail_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.4827, -41.0461, -14.4026 )
+mesh = ExtResource( 72 )
+
+[node name="Hilly_Prop_Fence_Post_3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -35.7288, -29.3494, -1.59504 )
+mesh = ExtResource( 69 )
+
+[node name="Hilly_Prop_Fence_Post_4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.7933, -29.797, -12.7933 )
+mesh = ExtResource( 60 )
+
+[node name="Hilly_Prop_Flower_Lily_Pink" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36.2998, -28.747, -1.08849 )
+mesh = ExtResource( 58 )
+
+[node name="Hilly_Prop_Flower_Rose" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -35.2336, -30.168, -0.038434 )
+mesh = ExtResource( 56 )
+
+[node name="Hilly_Prop_Flower_Sunflower" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -32.2908, -32.9772, -1.97631 )
+mesh = ExtResource( 76 )
+
+[node name="Hilly_Prop_Flower_Tulip" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -33.9772, -30.7121, -4.44945 )
+mesh = ExtResource( 57 )
+
+[node name="Hilly_Prop_Hollow_Trunk" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -34.4133, -29.6549, -6.40017 )
+mesh = ExtResource( 68 )
+
+[node name="Hilly_Prop_Mushroom_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -34.377, -28.6581, -9.15712 )
+mesh = ExtResource( 83 )
+
+[node name="Hilly_Prop_Mushroom_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.0099, -27.9842, -0.260441 )
+mesh = ExtResource( 73 )
+
+[node name="Hilly_Prop_Ruins_Pillar_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -32.6267, -31.6114, -6.29957 )
+mesh = ExtResource( 88 )
+
+[node name="Hilly_Prop_Ruins_Pillar_3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -35.6906, -29.7872, 1.32792 )
+mesh = ExtResource( 70 )
+
+[node name="Hilly_Prop_Tree_Cedar_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36.7691, -27.9774, -2.06288 )
+mesh = ExtResource( 54 )
+
+[node name="Hilly_Prop_Tree_Oak_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36.535, -27.9701, -3.41101 )
+mesh = ExtResource( 84 )
+
+[node name="Hilly_Prop_Tree_Oak_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36.7715, -27.5621, -3.81859 )
+mesh = ExtResource( 86 )
+
+[node name="Hilly_Terrain_Path_Esse_2x3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38.0759, -26.6746, 0.54301 )
+mesh = ExtResource( 85 )
+
+[node name="Hilly_Terrain_Path_Hill_Gentle_Plain_Center" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -35.7108, -27.6265, -7.72639 )
+mesh = ExtResource( 59 )
+
+[node name="Hilly_Terrain_Path_Hill_Gentle_Plain_Side" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.496, -24.9366, -8.40187 )
+mesh = ExtResource( 75 )
+
+[node name="Hilly_Terrain_Water_Flat" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39.8466, -24.0349, 0.338355 )
+mesh = ExtResource( 1 )
+
+[node name="Mountain_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39.7056, -23.1345, -4.40547 )
+mesh = ExtResource( 89 )
+
+[node name="Mountain_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -33.6093, -20.0976, -22.1899 )
+mesh = ExtResource( 63 )
+
+[node name="Mountain_3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -35.3577, -16.3297, -22.7215 )
+mesh = ExtResource( 65 )
+
+[node name="Shared_Prop_Boulder_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39.6371, -24.6195, 5.16139 )
+mesh = ExtResource( 4 )
+
+[node name="Shared_Prop_Boulder_3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39.4762, -24.7928, 6.41357 )
+mesh = ExtResource( 64 )
+
+[node name="Shared_Terrain_Dirt_Gathered_Corner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39.1715, -25.2265, 6.70816 )
+mesh = ExtResource( 2 )
+
+[node name="Shared_Terrain_Dirt_Gathered_Straight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38.5898, -26.0021, 7.42423 )
+mesh = ExtResource( 34 )

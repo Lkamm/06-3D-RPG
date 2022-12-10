@@ -4,6 +4,13 @@ var velocity = Vector3()
 var gravity = -9.8
 var speed = 0.2
 var max_speed = 4
+var mouse_sensitivty = 0.002
+onready var Pivot = get_node("/root/Game/Player/Pivot")
+var target = null
+
+func _ready():
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	
 
 func _physics_process(_delta):
 	velocity.y += gravity * _delta
@@ -17,11 +24,20 @@ func _physics_process(_delta):
 	var current_speed = velocity.length()
 	velocity = velocity.normalized() * clamp(current_speed, 0, max_speed)
 	velocity.y = falling
+	$AnimationTree.set("parameters/Idle_Run/blend_amount", current_speed/max_speed)
 	velocity = move_and_slide(velocity, Vector3.UP, true)
 	
+	if Input.is_action_just_pressed("shoot") and target != null and target.is_in_group("Target"):
+		target.die()
+		
+		
+		
 	
-	
-
+func _input(event):
+	if event is InputEventMouseMotion:
+		rotate_y(-event.relative.x * mouse_sensitivty)
+		Pivot.rotate_x(event.relative.y * mouse_sensitivty)
+		Pivot.rotation_degrees.x = clamp(Pivot.rotation_degrees.x, 0, 0)
 func get_input():
 	var input_dir = Vector3()
 	if Input.is_action_pressed("forward"):
