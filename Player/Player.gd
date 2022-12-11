@@ -10,7 +10,6 @@ var target = null
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-	
 
 func _physics_process(_delta):
 	velocity.y += gravity * _delta
@@ -30,7 +29,9 @@ func _physics_process(_delta):
 	if Input.is_action_just_pressed("shoot") and target != null and target.is_in_group("Target"):
 		target.die()
 		
-		
+	if get_node("/root/Game/Target_Container").get_child_count() == 0:
+		$Root/Skeleton/BoneAttachment/Spatial.show()
+		$Root/Skeleton/BoneAttachment/blasterH.hide()	
 		
 	
 func _input(event):

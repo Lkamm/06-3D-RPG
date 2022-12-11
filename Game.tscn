@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Coconut_1.obj" type="ArrayMesh" id=2]
@@ -9,6 +9,9 @@
 [ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Tree_Palm_2.obj" type="ArrayMesh" id=7]
 [ext_resource path="res://Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Starfish_2.obj" type="ArrayMesh" id=8]
 [ext_resource path="res://RayCast.gd" type="Script" id=9]
+[ext_resource path="res://NPC/NPC.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Dialogue/Dialogue.gd" type="Script" id=11]
+[ext_resource path="res://UI.gd" type="Script" id=12]
 
 [sub_resource type="SphereMesh" id=4]
 radius = 0.5
@@ -25,7 +28,7 @@ emission_on_uv2 = false
 [node name="Game" type="Spatial"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.309557, 0 )
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.309557, 0 )
 
 [node name="Pivot" type="Position3D" parent="Player"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.914705, -1.89258 )
@@ -90,4 +93,59 @@ transform = Transform( -0.0952898, 0, 0.99545, 0, 1, 0, -0.99545, 0, -0.0952898,
 [node name="targetA2" parent="Target_Container" instance=ExtResource( 4 )]
 transform = Transform( 0.983969, 0, 0.178339, 0, 1, 0, -0.178339, 0, 0.983969, 19.9558, 2.9162, 0 )
 
+[node name="targetA3" parent="Target_Container" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.47582, 2.38296, 3.81783 )
+
 [node name="lowpoly_scene" parent="." instance=ExtResource( 3 )]
+
+[node name="Player2" parent="." instance=ExtResource( 10 )]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 13.8872, 0.360948, 1.97974 )
+
+[node name="UI" type="CanvasLayer" parent="."]
+script = ExtResource( 12 )
+
+[node name="Background" type="ColorRect" parent="UI"]
+anchor_right = 1.0
+margin_bottom = 41.0
+color = Color( 0, 0, 0, 0.501961 )
+
+[node name="Score" type="Label" parent="UI"]
+margin_left = 10.0
+margin_right = 49.0
+margin_bottom = 14.0
+text = "Score:"
+
+[node name="Time" type="Label" parent="UI"]
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -124.0
+margin_right = -83.0
+text = "Timer: 00:00"
+
+[node name="Timer" type="Timer" parent="UI"]
+one_shot = true
+
+[node name="Dialogue" type="Control" parent="UI"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 11 )
+
+[node name="Background" type="ColorRect" parent="UI/Dialogue"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 3.0
+margin_top = -30.0
+margin_right = 3.0
+margin_bottom = 2.0
+color = Color( 0, 0, 0, 0.501961 )
+
+[node name="Text" type="RichTextLabel" parent="UI/Dialogue"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -30.0
+bbcode_enabled = true
+
+[connection signal="timeout" from="UI/Timer" to="UI" method="_on_Timer_timeout"]
